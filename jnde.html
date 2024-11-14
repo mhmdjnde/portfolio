@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=New+Amsterdam&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="intro">
+      <div id="head">
+        <nav id="navv">
+          <h1 class="name">Mohammad</h1>
+          <div class="menu-icon" onclick="toggleMenu()">☰</div>
+          <ul class="nav">
+            <li id="home" data-text="Home" onclick="gohome()">Home</li>
+            <li id="about" data-text="About" onclick="goabout()">About</li>
+            <li id="resume" data-text="Resume" onclick="goresume()">Resume</li>
+            <li id="skills" data-text="Skills" onclick="goskills()">Skills</li>
+            <li id="projects" data-text="Projects" onclick="goprojects()">
+              Projects
+            </li>
+            <li id="contact" data-text="Contact">Contact</li>
+          </ul>
+        </nav>
+        <div class="first">
+          <div class="txtbox">
+            <div class="txt">
+              <p class="hello">Hello!</p>
+              <h1 class="name2">
+                I'm
+                <span style="color: gold; filter: drop-shadow(1px 5px 5px gold)"
+                  >Mohammad<br />Joundi</span
+                >
+              </h1>
+              <p class="job">a Front-End Web Developer</p>
+              <button
+                class="but"
+                onclick="window.location.href='https://github.com/mhmdjnde';"
+              >
+                My work
+              </button>
+            </div>
+          </div>
+          <div class="imgbox">
+            <div class="img">
+              <img src="images/jnde.png" class="image1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <div class="box1">
+        <img src="images/jnde.png" id="abouttop" class="image2" />
+      </div>
+      <div class="box2">
+        <div class="answers">
+          <h1 class="tit">About Me</h1>
+          <br /><br /><br />
+          <p style="color: gray">
+            Passionate Computer Science student with a love for coding and
+            continuous learning.
+          </p>
+          <br /><br />
+          <h1>Name: <span style="color: gold">Mohammad Joundi</span></h1>
+          <br />
+          <h1>
+            Date of birth: <span style="color: gold">March 05, 2005</span>
+          </h1>
+          <br />
+          <h1>
+            Location:
+            <span style="color: gold">Beirut Governorate, Lebanon</span>
+          </h1>
+          <br />
+          <h1>Email: <span style="color: gold">Mhmdjn0@gmail.com</span></h1>
+          <br />
+          <h1>Phone: <span style="color: gold">+961 76 618 055</span></h1>
+          <br />
+          <button class="but2">Download CV</button>
+        </div>
+      </div>
+    </div>
+    <div class="title-container">
+      <h1 class="tit" id="resumetop">Resume</h1>
+    </div>
+    <div class="resume">
+      <div class="res">
+        <h1 class="t1">JAN-2021 → JAN-2022</h1>
+        <p class="t1" style="color: white">Online Accounts Recovery</p>
+        <p class="text">
+          Through extensive experience assisting with online account recovery,
+          I've gained valuable insights into support systems and user security.
+          This knowledge has enhanced my problem-solving skills and helped me
+          develop more secure, user-focused applications as a programmer.
+        </p>
+      </div>
+      <div class="res">
+        <h1 class="t1">OCT-2022 → Present</h1>
+        <p class="t1" style="color: white">Lebanese University</p>
+        <p class="text">
+          Continuing my studies at the Lebanese University, I specialize in
+          Computer Science. This has provided me with extensive new knowledge
+          and skills that I can develop and apply in my future endeavors.
+        </p>
+      </div>
+      <div class="res">
+        <h1 class="t1">JUN-2024 - Present</h1>
+        <p class="t1" style="color: white">42 Beirut Curriculum</p>
+        <p class="text">
+          Joining the 42 curriculum has been a transformative journey. This
+          program has provided hands-on experience, allowing me to develop and
+          manage projects practically. The peer-to-peer aid and evaluations have
+          significantly improved my communication and collaboration skills,
+          making me more adept at working in team environments.
+        </p>
+      </div>
+    </div>
+    <div class="title-container">
+      <h1 class="tit" id="sklls">Skills</h1>
+    </div>
+    <div class="skls">
+      <div class="logo-cont">
+        <img
+          style="width: 26%; filter: drop-shadow(3px 2px 12px orange)"
+          class="logos1"
+          src="images/html.png"
+        />
+        <img
+          style="width: 20%; filter: drop-shadow(3px 2px 12px blue)"
+          class="logos1"
+          src="images/css.png"
+        />
+        <img
+          style="width: 26%; filter: drop-shadow(3px 2px 12px yellow)"
+          class="logos1"
+          src="images/js.png"
+        />
+        <img
+          style="width: 17%; filter: drop-shadow(3px 2px 12px blue)"
+          class="logos1"
+          src="images/C.png"
+        />
+      </div>
+      <div class="logo-cont">
+        <img
+          style="
+            width: 17%;
+            margin-left: 4%;
+            filter: drop-shadow(3px 2px 8px white);
+          "
+          class="logos1"
+          src="images/bash.png"
+        />
+        <img
+          style="
+            width: 12%;
+            margin-left: 12.5%;
+            filter: drop-shadow(3px 2px 8px blue);
+          "
+          class="logos1"
+          src="images/java.png"
+        />
+        <img
+          style="
+            width: 17%;
+            margin-left: 12.5%;
+            filter: drop-shadow(3px 2px 8px blue);
+          "
+          class="logos1"
+          src="images/C++.png"
+        />
+        <img
+          style="
+            width: 26%;
+            margin-left: 4%;
+            filter: drop-shadow(3px 2px 8px orange);
+          "
+          class="logos1"
+          src="images/sql.png"
+        />
+      </div>
+    </div>
+    <div class="title-container">
+      <h1 class="titt" id="protop">Projects</h1>
+    </div>
+    <div class="pjs1">
+      <div class="pjs">
+        <img src="images/tour.png" class="pj1" />
+        <div class="overlay">
+          <h1 class="bt">MiniShell</h1>
+          <p class="inf">
+            a basic shell program designed to mimic Unix-like command-line
+            behavior. It executes commands, handles pipes and redirections, and
+            manages input/output efficiently. This project builds understanding
+            of process management, system calls, and memory handling in C,
+            offering valuable experience in debugging and problem-solving.
+          </p>
+        </div>
+      </div>
+      <div class="pjs">
+        <img src="images/game.png" class="pj1" />
+        <div class="overlay">
+          <h1 class="bt">So_long</h1>
+          <p class="inf">
+            A 2D game where Steve embarks on a quest to gather all the emeralds,
+            which are the key to unlocking the exit portal and achieving
+            victory. This game is intricately crafted in C, utilizing the
+            MiniLibX library for graphics and interaction.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="pjs1">
+      <div class="pjs">
+        <img src="images/calc.png" class="pj1" />
+        <div class="overlay">
+          <h1 class="bt">Calculator</h1>
+          <p class="inf">
+            This is a fully functional calculator built with HTML, CSS, and
+            JavaScript, without relying on the eval method.
+          </p>
+        </div>
+      </div>
+      <div class="pjs">
+        <img src="images/stop.png" class="pj1" />
+        <div class="overlay">
+          <h1 class="bt">Stop Watch</h1>
+          <p class="inf">
+            This is a stopwatch made with JavaScript, featuring start, stop, and
+            reset functions for accurate time tracking.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="pjs1">
+      <button class="but3">my work</button>
+    </div>
+    <!-- <div class="conback">
+      <div class="concontainer">
+        <input class="cname" type="text" placeholder="your name" />
+        <input class="cname" type="text" placeholder="your email" />
+        <textarea
+          class="mes"
+          cols="30"
+          row="7"
+          type="text"
+          placeholder="message"
+        ></textarea>
+      </div>
+    </div> -->
+    <script src="jnde.js"></script>
+  </body>
+</html>
